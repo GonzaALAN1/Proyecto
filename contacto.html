@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.1.css"type"text/css" title="estilos del formulario" media="screen,print">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Formulario de registro</title>
+    <script> src="validar.js" </script>
+</head>
+<body background="p.jpg">
+  <header class="header">
+    <a href="index.html">
+      <img class="header__logo" src="proyectofinal.png" alt="Logotipo">
+    </a>
+</header>
+
+<nav class="navegacion">
+  <a href="index.html"> <img class="img_casa" src="casa.png" alt=""></a>
+    
+</nav>
+
+   <h1> Contacto</h1>
+    <form action="registrar.php" method="post" class="form-register"onsubmit="validar()">
+      <h2 class="form__titulo">CREAR CUENTA</h2> 
+      <div class="contenedor-imputs">
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="input-48">
+        <input type="text" id="apellidos"name="apellidos" placeholder="Apellidos" class="input-48">
+        <input type="email"id="correo"  name="correo" placeholder="Email" class="input-100">
+        <input type="number" id="telefono"name="telefono" placeholder="Teléfono" class="input-100">
+        <input type="textbox"id="comentariot" name="comentario" placeholder="comentario" class="input-110">
+        <input type="submit" name="boton" value="Registrar" class="btn-enviar">
+        <p class="form_link">¿Ya tienes tu cuenta? <a href="inicio.html">Ingresa aquí</a></p>
+        <p class="form_links"> quieres regresar  al curriculum  <a href="mipagina.html">presione aquí</a></p>
+      </div>
+    </form>
+</body>
+<body>
+  </html>

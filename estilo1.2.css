@@ -1,0 +1,137 @@
+html{
+    margin: 0;
+    padding: 0;
+    background : #791156a4 ;
+    color : rgb(10, 10, 10)
+}
+body{
+    width: 80%;
+    margin: 10px auto;
+}
+.limpiar{
+    clear: both;
+}
+header, nav,aside,section,article,footer img{
+    margin: 10px 0;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    border-radius: 10px;
+    background: #f7490493  ;
+}
+nav{
+    border-radius: 10px;
+    background: #18ca078f;
+}
+ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+    padding:4px 10px;
+    border: 2px solid rgb(243, 235, 235) ;
+    border-radius: 4px;
+
+}
+aside{
+    border-radius: 10px;
+    float:  left;
+    width: 25%;
+    height: 200px;
+    background: #004e44e5;
+}
+div{
+    list-style: none;
+}
+ aside div{
+
+    margin: 0 10px;
+    padding:4px 10px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+article{
+    border-radius: 10px;
+    margin: 50px;   
+    width:  20%;
+    height: 160px;
+    float :left;
+    background: #004e44e5;
+    padding: 4px 50px;
+    /* recuadros  */
+}
+section{
+    border-radius: 10px;
+    float:  right;
+    width: 70%;
+    height: 300px;
+    background: #f9faf6;
+}
+section div span {
+    border-radius: 10px;
+    margin: 0 10px;
+    padding:4px 10px;
+    border: 2px solid rgb(245, 240, 240) ;
+    border-radius: 4px;
+}
+.DAT{
+    border-radius: 10px;
+    float:  right;
+    width: 80%;
+    height:20px 20px;
+    background: #004e44e5;
+    text-align: center;
+    margin: 50px;
+}
+img{
+    width: 90%;
+    height: 200px;
+}
+ section div  aside{
+    border-radius: 90px;
+    margin: 50px auto;   
+    width:  40%;
+    height: 90px;
+    float :right;
+    background: #004e44e5;
+    padding: 4px 40px;
+}
+.aside1{
+    margin: 10px 0;
+    padding: 20px 0;
+    float: right;
+    width: 50%;
+    height: 30px;
+    float: right;  
+    background: #004e44e5;
+    text-align: center;
+}
+div section aside{
+    float: right;
+    width: 90%;
+    height: 100px;
+    
+}
+div section{
+ border-radius: 10px;   
+}
+div footer{
+    background: #575353f5;
+}
+.img_casa{
+    width: 70px;
+    height: 70px;
+    right:1280px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    background:  black;
+}
